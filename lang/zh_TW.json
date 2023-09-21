@@ -1,0 +1,16 @@
+{
+    "cancelled": "已取消",
+    "Cancelled Orders": "已取消訂單",
+    "confirmed": "已確認",
+    "Confirmed Orders": "已確認訂單",
+    "Created from": "建立開始日期",
+    "Created until": "建立結束日期",
+    "new": "全新",
+    "Number": "編號",
+    "order": "訂單",
+    "Order from ": "訂單開始日期 ",
+    "Order until ": "訂單結束日期 ",
+    "Orders": "訂單",
+    "Status": "狀態",
+    "Total orders": "全部訂單"
+}
