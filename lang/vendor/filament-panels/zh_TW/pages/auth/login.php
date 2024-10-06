@@ -6,23 +6,10 @@ return [
 
     'heading' => '登入帳號',
 
-    'actions' => [
-
-        'register' => [
-            'before' => '或',
-            'label' => '註冊新帳號',
-        ],
-
-        'request_password_reset' => [
-            'label' => '忘記密碼？',
-        ],
-
-    ],
-
     'form' => [
 
         'email' => [
-            'label' => '電子郵件地址',
+            'label' => '電子郵件',
         ],
 
         'password' => [

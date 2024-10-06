@@ -45,7 +45,8 @@ class OrderResource extends Resource
                 Tables\Columns\TextColumn::make('number')
                     ->label(__('Number')),
                 Tables\Columns\TextColumn::make('status')
-                    ->label(__('Status')),
+                    ->label(__('Status'))
+                    ->formatStateUsing(fn (string $state): string => __($state)),
             ])
             ->filters([
                 Tables\Filters\Filter::make('created_at')

@@ -1,9 +1,9 @@
-# Laravel 10 Filament 按時間區間過濾訂單統計
+# Laravel 11 Filament 按時間區間過濾訂單統計
 
 Filament 按時間區間過濾訂單統計採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，可以了解選取時間內成交訂單以及顧客取消訂單的狀況，可以作為擬定商店營運及成長的 KPI 的參考依據。
 
 ## 使用方式
-- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl，並重啟服務器。
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 intl 和 zip，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/4CFelON.png)
+![](https://i.imgur.com/edfgQD9.png)
 > 可以檢視先前的預期訂單與實際訂單數量，作為設定未來預期數量的依據
